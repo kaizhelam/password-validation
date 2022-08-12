@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+body {
+    background:linear-gradient(to right, #6441a5, #2a0845);
+	display: flex;
+    font-family: monospace;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.container {
+    background-color: white;
+	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+	padding: 10px;
+	width: 400px;
+    border-radius: 10px;
+}
+h2 {
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+    font-size: 25px;
+    color: #6441a5;
+    font-weight: bold;
+}
+#set
+{
+    display:block ;
+    position:relative;
+    margin:auto;
+}
+#count
+{
+   display:inline-block;
+   position:relative ;
+   margin:4%; margin-bottom:2%;
+   color:#000; font-size:18px;
+   text-indent:40px;
+   font-weight:bolder;
+   
+}
+#see
+{
+    display:inline-block;
+    color:gray;
+    margin:auto; 
+    float: right;
+    margin-right:40px;
+    margin-top:10px;
+    cursor:pointer; 
+    transition-duration:0.2s;
+}
+input[id='password']
+{
+    padding: 10px;
+    border:none; 
+    width:80%;
+    outline:none;
+    border-bottom: 5px solid #2a0845;
+    display:block; 
+    position:relative;
+    font-size:27px;
+    text-align:center;
+    top:50px;
+    margin-top: -20px;
+    margin-left:35px;
+    margin-bottom:40px;
+    user-select:auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration:600ms;
+}
+i
+{
+    font-size:23px;
+    transition-duration:600ms;    
+}
+#check0,#check1,#check2,#check3,#check4
+{
+   display:block;
+   position:relative;
+   margin:4%;
+   color:red; font-size:18px;
+   width:92% ;
+   
+}
+span
+{
+    margin:10px;
+    font-weight: bold;
+}
+input:hover
+{
+    border-bottom:5px solid #6441a5;
+}
